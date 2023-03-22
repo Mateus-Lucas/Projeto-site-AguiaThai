@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Fjalla+One&family=Keania+One&family=Lobster&display=swap');
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('https://s2.glbimg.com/FcfNXGTtqRJhhxWrWAu2II6xhm4=/0x0:1920x1278/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/G/N/UcqlZxStuvLSZpA37hIQ/ash-1629.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Keania One', cursive;
+}
+.container{
+  margin: auto;
+  display: flex;
+}
+/*logo do site*/
+.logo{
+  width: 200px;
+  height: 200px;
+  float: left;
+  background: url(../img/ÁGUIA-removebg-preview.png) center center/200px;
+  margin-top: 2%;
+  margin-left: 43%;
+}
+body{
+  background-image: url('https://s2.glbimg.com/FcfNXGTtqRJhhxWrWAu2II6xhm4=/0x0:1920x1278/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/G/N/UcqlZxStuvLSZpA37hIQ/ash-1629.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Keania One', cursive;
+}
+
+/*Menu*/
+#menu {
+  list-style-type: none;
+  padding: 0;
+  background-color: #7C0717;
+  text-align: center;
+}
+#menu li{
+  display: inline-block;
+  padding: 20px;
+  
+}
+#menu li a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+#menu li a:hover{
+  background-color:  gray;
+  border-radius: 3%;
+  transition: background .6s;
+}
+
+/*Rodapé*/
+footer{
+  width: 100%;
+  height: 6vh;
+  bottom: 0;
+  flex-direction: column;
+  background-color: #7C0717;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/*Botões Redes Sociais*/
+.r-s{
+  margin: 0;
+  padding: 0;
+  }
+  
+  .r-s{
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .r-s a{
+      display: inline-flex;
+      text-decoration: none;
+      width: 35px;
+      height: 35px;
+      background-color:  #7C0717;
+      color: white;
+      margin: 0 6px;
+      border-radius:50px;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+  }
+  
+  .r-s a:hover{
+  background: gray;
+  }
+  
+  .r-s a i{
+  transition: 00.4s all;
+  }
+  
+  .r-s a:hover{
+  transform: scale(1.6) rotate(25deg);
+  transition: background .6s;
+  }
+  
+
+
+
+
