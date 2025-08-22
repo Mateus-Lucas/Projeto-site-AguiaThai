@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="img/image" alt="Logo do Projeto" width="400"/>
+  <img src="img/image.png" alt="Logo do Projeto" width="400"/>
 </p>
+
 
 # 🥋 Projeto - Site de Academia de Muay Thai
 
